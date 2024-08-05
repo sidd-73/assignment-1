@@ -22,17 +22,17 @@
 the json data to send request.
 
 - /login - user authorization
-- 
+
 {
   "username": "exampleUser",
   "password": "examplePassword"
-
 }
+
 returns a JWT.
 
 
 # Adding Items to cart
-- /cart POST
+- /cart - POST
 
 {
 
@@ -56,7 +56,7 @@ for adding item to cart.
 - /cart -  GET  To view the cart
 #pass the web token returned while logged in and in the authorization tab for bearer pass the token-- for sending request in postman
 
-- /cart -DELETE to clear the cart.
+- /cart - DELETE to clear the cart.
 #pass the web token returned while logged in and in the authorization tab for bearer pass the token-- for sending request in postman
 
 
