@@ -1,3 +1,10 @@
+# Dependencies
+npm init -y - to initialize the packagae.json file.
+npm install express prisma @prisma/client jsonwebtoken bcryptjs body-parser
+npx prisma init
+npx prisma migrate dev --name init - to create tables in the db.
+
+
 # For Using Local database
 create a .env file in the root
 add database url
